@@ -30,8 +30,6 @@ bootstrap:
           idp-source-id: 2f3ed38e-77ab-4c41-abcb-6606f0b8d1cd
           idp-source-name: bootcamp-13-test-uc-001-oee-read
 
-  idp-cdf-mappings:
-    # Support multiple CDF Projects, like dev/test/prod in one config.
     - cdf-project: cdf-bootcamp-13-prod
       mappings:
         - cdf-group: cdf:root
